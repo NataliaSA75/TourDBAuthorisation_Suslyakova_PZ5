@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "db3", "db3.csproj", "{194452B0-3D2E-4EF5-A4D4-FBD1623D9A11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashPassword1", "..\HashPassword1\HashPassword1.csproj", "{22611474-85A7-4797-B589-6819A3D3453C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{194452B0-3D2E-4EF5-A4D4-FBD1623D9A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194452B0-3D2E-4EF5-A4D4-FBD1623D9A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194452B0-3D2E-4EF5-A4D4-FBD1623D9A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194452B0-3D2E-4EF5-A4D4-FBD1623D9A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22611474-85A7-4797-B589-6819A3D3453C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22611474-85A7-4797-B589-6819A3D3453C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22611474-85A7-4797-B589-6819A3D3453C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22611474-85A7-4797-B589-6819A3D3453C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {101B09F6-2CC1-4004-ADB8-6429EEF3014B}
+	EndGlobalSection
+EndGlobal

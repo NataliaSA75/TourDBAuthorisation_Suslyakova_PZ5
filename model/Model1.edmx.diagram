@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b18bd92014cc442abf6552222ae01853" Name="Diagram1">
+        <EntityTypeShape EntityType="ModelTour.airlines" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.authorisation" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.clients" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.clientsHotels" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.clientsTours" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.countres" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.emploees" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.hotels" Width="1.5" PointX="7.5" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.hotels_tours" Width="1.5" PointX="9.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.kurorts" Width="1.5" PointX="5.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.programms" Width="1.5" PointX="5.25" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.rooms" Width="1.5" PointX="3" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.roomTypes" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.specialities" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.statuses" Width="1.5" PointX="5.25" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.sysdiagrams" Width="1.5" PointX="7.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.tourEmploees" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.tourHotel" Width="1.5" PointX="6" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelTour.tours" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="ModelTour.FK_tours_airlines" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_clients_authorisation" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_emploees_authorisation" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_clientsHotels_clients" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_clientsTours_clients" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_clientsHotels_hotels1" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_clientsHotels_rooms" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_clientsTours_tourHotel" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_clientsTours_tours" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_kurorts_countres" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_emploees_specialities" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_tourEmploees_emploees" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_hotels_tours_hotels" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_hotels_kurorts" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_hotels_statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_rooms_hotels" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_hotels_tours_tours" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_tours_kurorts" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_tours_programms" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_rooms_roomTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelTour.FK_tours_tourEmploees" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
