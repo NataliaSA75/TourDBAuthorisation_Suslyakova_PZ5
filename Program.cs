@@ -21,6 +21,7 @@ namespace db3
             string login = Console.ReadLine();
             Console.WriteLine("Введите свой пароль: ");
             string password = Class1.getHashedPassword(Console.ReadLine());
+            Console.WriteLine($"Хэшированный пароль: {password}");
             authorisation auth = new authorisation();
             auth.login = login;
             auth.password = password.ToString();

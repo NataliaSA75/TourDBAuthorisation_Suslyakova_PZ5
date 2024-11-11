@@ -38,6 +38,7 @@ namespace db3
                     }
                 }
             }
+            Console.WriteLine("Ваши логин и пароль сохранены успешно!");
         }
 
         public void UpdateUser(authorisation client)
